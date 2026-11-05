@@ -35,13 +35,7 @@
         </provider>
     </application>
 
-    <!-- ===================================================================
-         PERMISOS DE LA APP (Persona 3 - Migración a Android)
-         Android exige declarar aquí todo acceso a hardware o almacenamiento.
-         Los usan los plugins @capacitor/camera y @capacitor/filesystem.
-         =================================================================== -->
 
-    <!-- Permite que el WebView cargue recursos (viene por defecto con Capacitor). -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- CÁMARA: necesario para que Camera.getPhoto() abra la cámara
